@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: km2miles
+Version: 0.1.0
+Summary: A simple package to convert kilometers to miles
+Author-email: Ali Beg <your-email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/km2miles
+Project-URL: Repository, https://github.com/yourusername/km2miles
+Description-Content-Type: text/markdown
+License-File: licence
+
+# km2miles
+
+`km2miles` is a simple Python package to convert kilometers to miles.
+
+## Installation
+You can install this package via pip (after publishing to PyPI):
+
+```bash
+pip install km2miles
