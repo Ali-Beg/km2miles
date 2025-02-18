@@ -15,10 +15,10 @@ pip install km2miles
 Using `km2miles` is straightforward. Simply import the package and call the conversion function:
 
 ```python
-from km2miles import convert
+from km2miles import km_2_miles
 
 km = 10
-miles = convert(km)
+miles = km_2_miles(km)
 print(f"{km} kilometers is equal to {miles} miles.")
 ```
 
@@ -31,5 +31,4 @@ For detailed documentation, usage examples, and API references, visit the live d
 ## License
 
 This project is licensed under the MIT License.
-
 
