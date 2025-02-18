@@ -1,0 +1,13 @@
+site_name: km2miles Documentation
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+  - License: license.md
+
+repo_url: https://github.com/Ali-Beg/km2miles
+repo_name: km2miles

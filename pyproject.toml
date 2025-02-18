@@ -12,5 +12,5 @@ authors = [{name = "Ali Beg", email = "mbeg937@gmail.com"}]
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/ali-beg/km2miles"
-Repository = "https://github.com/ali-beg/km2miles"
+Homepage = "https://github.com/Ali-Beg/km2miles"
+Repository = "https://github.com/Ali-Beg/km2miles"
