@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "km2miles"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple package to convert kilometers to miles"
 readme = "README.md"
 license = {text = "MIT"}
-authors = [{name = "Ali Beg", email = "your-email@example.com"}]
+authors = [{name = "Ali Beg", email = "mbeg937@gmail.com"}]
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/yourusername/km2miles"
-Repository = "https://github.com/yourusername/km2miles"
+Homepage = "https://github.com/ali-beg/km2miles"
+Repository = "https://github.com/ali-beg/km2miles"
