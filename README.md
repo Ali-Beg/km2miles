@@ -28,7 +28,18 @@ For detailed documentation, usage examples, and API references, visit the live d
 
 [📖 Read the Docs](https://ali-beg.github.io/km2miles/)
 
+
+## Contributing
+
+we welcome contribution! open an issue or create a pull request to contribute to the project.
+
 ## License
 
 This project is licensed under the MIT License.
+
+## 🔗 Links  
+- [GitHub Repository](https://github.com/Ali-Beg/km2miles)  
+- [PyPI Package](https://pypi.org/project/km2miles/)    
+
+
 

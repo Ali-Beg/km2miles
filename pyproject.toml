@@ -3,6 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
+keywords = ["kilometers", "miles", "converter", "distance", "unit conversion"]
 name = "km2miles"
 version = "0.1.1"
 description = "A simple package to convert kilometers to miles"
