@@ -19,13 +19,17 @@ jobs:
         with:
           python-version: "3.9"
 
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
       - name: Install dependencies
         run: |
-          pip install pytest
+          poetry install
 
       - name: Run tests
         run: |
-          pytest tests/
+          poetry run pytest tests/
 
   publish:
     needs: test
@@ -40,17 +44,21 @@ jobs:
         with:
           python-version: "3.9"
 
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
       - name: Install build dependencies
         run: |
-          pip install build twine
+          poetry install
 
       - name: Build package
         run: |
-          python -m build
+          poetry build
 
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
         run: |
-          twine upload dist/*
+          poetry publish --username __token__ --password ${{ secrets.PYPI_API_TOKEN }}
